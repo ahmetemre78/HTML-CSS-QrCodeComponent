@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+#component
+{
+    border-radius: 12px;
+    width: 20%;
+    background: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#component #componentContent
+{
+    margin: 10px 15px 20px 15px;
+}
+
+#component #componentContent #qrCodeImage
+{
+    background-image: url("/images/image-qr-code.png");
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#component #componentContent #qrCodeTitle
+{
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#component #componentContent #qrCodeDesc
+{
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
