@@ -32,7 +32,7 @@ body
 
 #component #componentContent #qrCodeImage
 {
-    background-image: url("/images/image-qr-code.png");
+    background-image: url("images/image-qr-code.png");
     height: 230px;
     background-position: center;
     background-size: cover;
